@@ -1,0 +1,9 @@
+def bio(name,regno,semstr,sect):
+    print('name=', name)
+    print('regno=' ,regno )
+    print('semstr=', semstr)
+    print('sect=' , sect)
+def main():
+    bio('MALIHA FAISAL','2018_VGR_98','FOURTH','A')
+if __name__=="__main__":
+    main()
