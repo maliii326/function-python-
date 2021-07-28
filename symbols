@@ -1,0 +1,19 @@
+def add():
+    print(4+6)
+def subtract():
+    print(4-6)
+def multiply():
+    print(4*5)
+def divide():
+    print(4/5)
+def main():
+    operator = input('enter any operator must be +,-,/,*,%')
+    if operator == '+':
+        add()
+    elif operator == '-':
+        subtract()
+if __name__ == '__main__':
+    main()
+
+
+
